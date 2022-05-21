@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# First Capstone
+# NATIONAL INNOVATION INNITIATIVE
 
-> A website for the National Innovationa Fair in Zambia.
+> A website for the National Innovationa Fair in Zambia, where bright minds bring there Bussiness promising innovations and pitch them to investors and donors for funding.
 
 
 ## Built With
@@ -37,9 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Cindy Shin, GUI & Graphic Designer
 
 ## 📝 License
 

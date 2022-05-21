@@ -21,7 +21,7 @@ const speakerdata = [
     name: 'Ariel Camus',
     image: './images/ariel.jpg',
     title: 'CEO, Microverse',
-    desc: 'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye, a travel app with 1MM+ users acquired by Lonely Planet. He is famous for his bad jokes and Argentinian asados.',
+    desc: 'Ariel has been coding since he was 12. He previously founded Tourist Eye, a travel app with 1MM+ users acquired by Lonely Planet.',
   },
   {
     name: 'Joseph Ndandula',

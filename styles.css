@@ -207,7 +207,7 @@ header {
 
 .abtMainText {
   font-family: 'lato', sans-serif;
-  border: 2px solid grey;
+  border: 2px solid #dfdcdc;
   background-color: #fff;
   font-size: 15px;
   line-height: 25px;
@@ -224,8 +224,9 @@ header {
   font-family: 'Lato', sans-serif;
   text-align: center;
   border-bottom: 1px solid;
-  padding-left: 1px;
-  width: 140px;
+
+  /* padding: 40px;
+  width: 140px; */
   padding-bottom: 5px;
   margin-left: 60px;
   justify-items: center;
@@ -276,15 +277,17 @@ header {
 
 .mobileMenu {
   position: fixed;
+  top: 0;
   left: 100%;
-  width: 100%;
+  width: 100% !important;
   height: 100vh;
-  background-color: rgb(147, 192, 135);
+  background-color: rgb(253 253 253);
   backdrop-filter: blur(5px);
   transition: left 0.5s ease;
+  bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   body {
     margin: 0;
     display: flex;
@@ -375,8 +378,8 @@ header {
     line-height: 1px;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    border-bottom: 1px solid;
-    padding: 0 6% 0 6%;
+    border-bottom: 1px solid black;
+    padding: 40px;
     width: 0;
     padding-bottom: 5px;
     margin: 0 44% 60px 44%;

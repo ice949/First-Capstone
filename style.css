@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 body {
@@ -55,7 +56,7 @@ header {
 .toggle-Menu {
   display: flex;
   padding: 10px 20px;
-  max-width: 100%;
+  width: 80%;
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
@@ -85,7 +86,7 @@ header {
   flex-direction: column;
   margin-top: -24px;
   padding: 0 5px 0 16px;
-  font-family: 'cocogoose', sans-serif;
+  font-family: "cocogoose", sans-serif;
   width: 80%;
 }
 
@@ -102,11 +103,10 @@ header {
 }
 
 .title {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
   padding: 20px 0;
-  font-size: 1.5em;
+  font-size: 40px;
   font-weight: 900;
-  line-height: 25px;
   color: #ec5242;
   margin: 0 -1px;
   background-image: url("matrix.jpeg");
@@ -118,15 +118,15 @@ header {
 .hello {
   color: #ec5242;
   margin: 10px 0;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .mainText {
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   padding: 20px;
   border: 3px solid #fff;
   margin: 2px 0 -27px 0;
-  background-color: #b0b3d3;
+  background-color: lightgray;
   align-content: center;
   line-height: 21px;
   font-size: 15px;
@@ -151,7 +151,7 @@ header {
   border: none;
   font-size: 17px;
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 25px 30px;
   margin: 30px;
   color: #fff;
@@ -160,7 +160,7 @@ header {
 }
 
 .date {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: "COCOGOOSE", sans-serif;
   padding: 20px 0;
   font-size: 22px;
   font-weight: 900;
@@ -168,7 +168,7 @@ header {
 }
 
 .location {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding: -5px 0;
   font-size: 0.9em;
   font-weight: 500;
@@ -179,7 +179,7 @@ header {
 
 .btnEntireProgram {
   margin: auto;
-  width: 50%;
+  width: 100%;
   color: #fff;
   display: none;
 }
@@ -195,38 +195,48 @@ header {
 .speakerslist {
   display: flex;
   flex-direction: column;
+  height: auto;
+  padding-left: 0;
 }
 
 .speaker {
+  /* display: flex; */
   margin-bottom: 10px;
   flex-direction: row;
+  height: auto;
 }
 
 .speakerimg {
   flex: 1;
-  height: 100%;
-  max-height: 280px;
   width: 100%;
-  background: url("img/micro.png");
-  background-size: 50%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/checked.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 0% 1%;
+  padding-top: 15px;
 }
 
 .speakerimg img {
-  display: block;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  margin-bottom: auto;
 }
 
 .speakerinfo {
   flex: 1.8;
   height: auto;
   padding: 2px;
+  margin: 15px 15px;
 }
 
 .speakername {
   font-size: 1.4rem;
   color: var(--color-dark);
   margin-bottom: 0;
+  margin-top: auto;
 }
 
 .speakertitle {
@@ -248,12 +258,14 @@ header {
 .morebtn {
   background-color: var(--color-white);
   width: 95%;
-  margin-top: 30px;
+
+  /* margin-top: 30px; */
   border-style: solid;
   border-color: var(--bg-gray);
   font-family: "lato", sans-serif;
   height: 50px;
-  margin-left: 10px;
+
+  /* margin-left: 10px; */
 }
 
 .speaker1 {
@@ -280,7 +292,7 @@ header {
   flex-direction: column;
   align-items: center;
   color: #d3d3d3;
-  background-image: url(cont1.jpeg);
+  background-image: url(./images/article.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -292,6 +304,10 @@ header {
   background-color: #787f7d4d;
 }
 
+.mainProgramCard:hover {
+  border: 2px solid white;
+}
+
 .mainProgramheader {
   text-align: center;
   color: #ec5242;
@@ -300,7 +316,7 @@ header {
 
 .mainProgramtext {
   font-size: 13px;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   color: #fff;
   padding-right: 4px;
   padding-right: -18px;
@@ -332,14 +348,14 @@ header {
 
 .speakerName {
   font-size: 20px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin-top: -6px;
   margin-left: 10px;
 }
 
 .SpeakerTitle {
   font-size: 13px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin-top: -19px;
   margin-left: 10px;
   color: #ec5242;
@@ -347,7 +363,7 @@ header {
 
 .speakerText {
   font-size: 13px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin-top: -19px;
   padding-top: 16px;
 }
@@ -371,7 +387,7 @@ header {
   border-radius: 4px;
   font-size: 14px;
   font-weight: 600;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   padding: 10px 113px;
   width: 90%;
   color: black;
@@ -401,7 +417,7 @@ header {
 
 .abtpartnersList {
   justify-content: center;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   color: #d3d3d3;
   font-size: 20px;
 }
@@ -410,6 +426,12 @@ header {
   font-size: 20px;
   justify-content: center;
   color: #fff;
+}
+
+.partnersList img {
+  width: 25%;
+  height: 80px;
+  margin: 10px;
 }
 
 .footer {
@@ -480,7 +502,7 @@ header {
 
   .niicompaign {
     border: 3px solid #ec5242;
-    padding: 13px;
+    padding: 12px 4px;
     text-align: center;
   }
 
@@ -510,7 +532,7 @@ header {
     flex-direction: row;
     justify-content: flex-end;
     justify-items: flex-start;
-    gap: 28px;
+    gap: 18px;
     list-style: none;
     text-decoration: none;
     background-color: white;
@@ -520,7 +542,6 @@ header {
   .abtMenu li a {
     text-decoration: none;
     color: black;
-    padding-right: 20px;
   }
 
   .compaign {
@@ -532,13 +553,13 @@ header {
     flex-direction: column;
     margin-top: -25px;
     padding: 0 5px 0 16px;
-    font-family: 'cocogoose', sans-serif;
+    font-family: "cocogoose", sans-serif;
   }
 
   .title {
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "COCOGOOSE", sans-serif;
     padding: 20px 0;
-    font-size: 4.5em;
+    font-size: 55px;
     font-weight: 900;
     line-height: 76px;
     text-align: left;
@@ -551,25 +572,25 @@ header {
 
   .hello {
     color: #ec5242;
-    font-size: 3.2em;
+    font-size: 40px;
     line-height: 77px;
     margin-top: 10%;
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
   }
 
   .mainText {
-    font-family: 'lato', sans-serif;
+    font-family: "lato", sans-serif;
     padding: 20px;
     border: 3px solid #fff;
     margin: 2px 390px -27px 0;
-    background-color: #b0b3d3;
+    background-color: lightgray;
     align-content: center;
     line-height: 21px;
     font-size: 20px;
   }
 
   .date {
-    font-family: 'COCOGOOSE', sans-serif;
+    font-family: "COCOGOOSE", sans-serif;
     padding: 20px 0;
     font-size: 2.5em;
     font-weight: 500;
@@ -577,13 +598,19 @@ header {
   }
 
   .location {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     padding: -5px 0;
     font-size: 1.4em;
     font-weight: 500;
     margin-top: -58px;
     margin-bottom: 97px;
     color: black;
+  }
+
+  .partnersList img {
+    width: 25%;
+    height: 200px;
+    margin: 15px;
   }
 
   .mainProgramCard {
@@ -598,6 +625,13 @@ header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 30px;
+    width: 80%;
+  }
+
+  .cardsc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .btnEntireProgram {
@@ -613,7 +647,7 @@ header {
 
   .speakerslist {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     padding: 10px;
   }
 
@@ -636,6 +670,11 @@ header {
   .speaker {
     display: flex;
     justify-content: space-around;
+    margin: 15px;
+  }
+
+  .speakerimg img {
+    margin-right: 10px;
   }
 
   .morebtn {
@@ -667,5 +706,9 @@ header {
   .grid-card img {
     width: 80%;
     height: auto;
+  }
+
+  .footer {
+    width: 80%;
   }
 }
