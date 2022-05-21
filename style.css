@@ -200,7 +200,7 @@ header {
 }
 
 .speaker {
-  /* display: flex; */
+  display: flex;
   margin-bottom: 10px;
   flex-direction: row;
   height: auto;
@@ -256,6 +256,7 @@ header {
 }
 
 .morebtn {
+  display: none;
   background-color: var(--color-white);
   width: 95%;
 

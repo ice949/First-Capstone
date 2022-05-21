@@ -37,7 +37,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Cindy Shin, GUI & Graphic Designer
+- Cindy Shin, GUI & Graphic Designergit push 
 
 ## 📝 License
 
